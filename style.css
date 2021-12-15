@@ -66,3 +66,41 @@ adding color and style to header text
     flex-direction: column;
     justify-content: space-around;
 }
+
+.middle .main-text {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    justify-content: center;
+}
+
+.middle img {
+    width: 100px;
+    height: 100px;
+    border: 3px solid #3882f6;
+    border-radius: 5px;
+}
+
+.middle {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px;
+}
+
+.middle .products {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px;
+    gap: 100px;
+}
+
+.middle .item {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #a2a4a7;
+    font-size: 15px;
+}
