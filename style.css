@@ -9,15 +9,15 @@ adding background and font
     align-items: center;
     justify-content: space-between;
     background-color: #1f2937;
-    padding: 10px 200px;
+    padding: 25px 200px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 /* 
 adding color and style to header text
 */
-a {
-    color: #c5c9cc;
+.header a {
+    color: #e5e7eb;
     text-align: center;
     padding: 12px;
     text-decoration: none;
@@ -27,9 +27,42 @@ a {
   }
 
 /* making logo size bigger and bold */
-a.logo {
+.header a.logo {
     font-size: 30px;
     font-weight: bold;
     font-style: italic;
-    color: white;
+    color: #f9faf8;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1f2937;
+    padding: 100px 200px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.top a.main-text {
+    color: #f9faf8;
+    font-size: 40px;
+}
+
+.top a.top-text {
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.top button {
+    color: #f9faf8;
+    background-color: #3882f6;
+    border-color: #3882f6;
+    height: 30px;
+    width: 80px;
+    border-radius: 5px;
+}
+
+.top .left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
