@@ -10,7 +10,7 @@ adding background and font
     justify-content: space-between;
     background-color: #1f2937;
     padding: 25px 200px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 /* 
@@ -39,7 +39,7 @@ adding color and style to header text
     justify-content: space-between;
     background-color: #1f2937;
     padding: 100px 200px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .top a.main-text {
@@ -71,7 +71,7 @@ adding color and style to header text
     font-size: 36px;
     font-weight: bolder;
     color: #1f2937;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     justify-content: center;
 }
 
@@ -100,7 +100,66 @@ adding color and style to header text
 }
 
 .middle .item {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #a2a4a7;
     font-size: 15px;
+}
+
+.bottom {
+    display: flex;
+    flex-direction: column;
+    background-color: #e5e7eb;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 25px 200px;
+    gap: 25px;
+}
+
+.bottom .main-text {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #a2a4a7;
+}
+
+.bottom .author {
+    color: #1f2937;
+    font-weight: bold;
+    justify-self: flex-start;
+}
+
+.footer {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #f9faf8;
+}
+
+.footer .text {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer .cta-text {
+    font-size: 10px;
+    padding-top: 20px;
+}
+
+.footer button {
+    color: #f9faf8;
+    background-color: #3882f6;
+    border-color: #f9faf8;
+    height: 30px;
+    width: 80px;
+    border-radius: 5px;
+}
+
+.footer .blue-box {
+    display: flex;
+    background-color: #3882f6;
+    height: 100px;
+    width: 700px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    padding: 25px 400px;
+    gap: 50px;
 }
